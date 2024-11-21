@@ -1,0 +1,23 @@
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 300px;
+  width: 100vw;
+  row-gap: 2.5rem;
+}
+
+.counter {
+  font-size: 1.8rem;
+}
+
+.counter-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+
+.counter-container button {
+  font-size: 1.5rem;
+}
